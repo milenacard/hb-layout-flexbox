@@ -1,0 +1,16 @@
+.header{
+	background-color: $color-main;
+	border: 1px solid $color-main-dark;
+	width: 100%;
+	max-width: $main-width;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	justify-content: center;
+	position: fixed;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%); 
+	display: flex;
+	z-index: 1;
+}

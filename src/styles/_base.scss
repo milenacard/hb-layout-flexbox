@@ -1,0 +1,23 @@
+.title{
+	color: rgb(221, 28, 92);
+	font-size: 3em;
+}
+
+body {
+  color: $color-main-dark;
+	font-family: $font-family;
+	justify-content: center;
+}
+
+.container {
+  margin: 100px auto 0;
+	max-width: $main-width;
+	margin-top: 100px;
+  width: 100%;
+}
+
+.box{
+	background-color: $color-main;
+  border: 1px solid $color-main-dark;
+}
+

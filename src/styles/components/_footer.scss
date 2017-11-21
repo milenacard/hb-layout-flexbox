@@ -1,0 +1,16 @@
+.footer{
+  background-color: $color-main;
+  border: 1px solid $color-main-dark;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&-square {
+    $width: 150px;
+    height: $width;
+    width: $width;
+  }
+}
+
+
